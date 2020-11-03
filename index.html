@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style >
+    body{
+      background-color:lightgrey;
+      font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, “Helvetica Neue”, Arial, sans-serif, “Apple Color Emoji”, “Segoe UI Emoji”, “Segoe UI Symbol”;
+
+font-size: 20px;
+font-weight: 400;
+line-height: 1.5;
+    }
+    .container{
+      height:650px;
+      margin-top:-55px;
+    }
+    nav{
+      margin-right:72px;
+      margin-left: 72px;
+    }
+    h1{
+      font-weight: bolder;
+      font-size: 37px;
+      color:#121212;
+    }
+    h2{
+     font-weight: bolder;
+      font-size: 34px;
+      color:#121212; 
+      text-align: center;
+    }
+    #btn{
+      background-color: #43305C;
+      color: white;
+      height: 50px;
+      margin-right:80px; 
+      padding-right: 5px;
+    }
+    .btn{
+      color:black;
+    }
+    .card-title{
+      color:#43305C;
+      font-weight: bolder;
+      padding-top: 50px;
+      text-align: center;
+    }
+    #rncorners4{
+    border-radius: 50px;
+    
+    }
+    .card-text{
+      color:#727272;
+      text-align: center;
+    }
+    #bt{
+      border: 2px solid #4CAF50;
+      background:#4ba674;
+      color:#43305C;
+      border-radius:10px; 
+      width:100px;
+    margin-left:250px;
+
+    }
+    .button{
+      border: 2px solid #4CAF50;
+      background:#fff;
+      color:#3AD29F;
+      border-radius:10px;
+       width:100px;
+      /* margin-left:250px;*/
+    }
+    .pl-5 {
+      padding-top:-20px; 
+    }
+  </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-sm bg-white navbar-dark shadow-sm p-3 mb-5 bg-white">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">
+    <img src="./Image/pivotlogo.jpg" alt="logo" style="height:60px;">
+  </a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav text-primary">
+    <li class="nav-item">
+      <a class="nav-link text-primary" href="#">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-primary" href="#">Patners</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-primary" href="#">FAQ</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-primary" href="#">Clean Property</a>
+    </li>
+  </ul>
+  <div class="login-container">
+    <form action="/action_page.php" style="margin-top: 10px;">
+      
+      <button id="bt" type="submit" >Sign up</button>
+      <button class="button" type="submit" style=" ">sign in</button>
+    </form>
+  </div>
+</nav>
+
+<div class="container bg-white">
+  <img src="./Image/div.PNG" alt="" class="float-right">
+  <p class="pt-5 pl-4" style="font-size:12px">WE'RE PROPVAT.</p>
+  <h1 class="pt-0 pl-4">The Modern Property <br>Verification System.</h1>
+  <p class="pt-0 pl-4">Ensuring a trusted real estate transaction .You<br>have insurance cover  unto NGN50,000,000</p>
+  <button  type="submit" id="btn" class="btn btn-outline-primary mx-3" ;>Get started</button>
+  <a  class="btn border border-white mr-lg-5">Speak to us</a>
+</div>
+
+<div class="container bg-white p-3 m " style="margin-top:-230px;">
+ <h2 class=" mx-5 text-center">The Modern Property <br>and financial institutions.</h2>
+  <p class="text-center">reducing risks and increasing access to credits/mortgage and purchases.</p>
+  <div class="card-group">
+  <div class="card  border mx-2 mt-n0" id="rncorners4">
+    
+    <div class="card-body  ">
+      <img src="./Image/ic.PNG" class="card-img-top" alt="..." height="150px" width="200px">
+      <h5 class="card-title">Quality analysis</h5>
+      <p class="card-text"> We generate every report from scratch ensuring unparralleled quality attention to details and real state at the property.</p>
+      
+    </div>
+  </div>
+  <div class="card  border mx-n0 mt-n0" id="rncorners4">
+   
+    <div class="card-body  ">
+       <img src="./Image/ico.PNG" class="card-img-top" alt="..." height="150px" width="200px">
+      <h5 class="card-title">Seamless</h5>
+      <p class="card-text"> Our process is very easy and fast.Reports are usually ready in 72 hours.</p>
+      
+    </div>
+  </div>
+   <div class="card  border mx-2 mt-n0" id="rncorners4">
+    
+    <div class="card-body " >
+      <img src="./Image/icon.PNG" class="card-img-top" alt="..."  height="150px" width="200px">
+      <h5 class="card-title">Vetted experts</h5>
+      <p class="card-text">We have the most experienced experts with proffesional indentity.</p>
+      
+    </div>
+  </div>
+  <div class="card border mx-2 mt-n0" id="rncorners4">
+    
+    <div class="card-body" >
+      <img src="./Image/icons.PNG" class="card-img-top" alt="..." height="150px" width="200px">
+      <h5 class="card-title">Insured</h5>
+      <p class="card-text">We mae sure we provide accurate property data to protect you more<br> we insured our report upto<br> <strong>NGN50Million</strong></p>
+      
+  </div>
+</div>
+</div>
+
+<div class="container mt-5 w-120%" style="background-color:#F1E1F8;height:500px;">
+ 
+  <h2 class=" mx-5 text-center pt-4">PropVat helps you to verify <br>property in<span>three simple steps</span>.</h2>
+   <img src="./Image/verify.PNG" alt="" class="float-right mt-n5">
+   <button>1</button>
+   <p class="pl-5 ">verification</p>
+   <button>2</button>
+   <p class="pl-5 pt-n5">verification</p>
+   <button class="mt-3">3</button>
+   <p class="pl-5 ">verification</p>
+
+  <button  type="submit" id="btn" class="btn btn-outline-primary mx-5 mt-5 "  style="background:#3AD29F;">Get started</button>
+  
+</div>
+
+  
+
+ 
+
+
+</body>
+</html>
