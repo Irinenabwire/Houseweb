@@ -4,6 +4,7 @@
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -18,10 +19,7 @@ font-size: 20px;
 font-weight: 400;
 line-height: 1.5;
     }
-    .container{
-      height:650px;
-      margin-top:-55px;
-    }
+    
     nav{
       margin-right:72px;
       margin-left: 72px;
@@ -37,16 +35,9 @@ line-height: 1.5;
       color:#121212; 
       text-align: center;
     }
-    #btn{
-      background-color: #43305C;
-      color: white;
-      height: 50px;
-      margin-right:80px; 
-      padding-right: 5px;
-    }
-    .btn{
-      color:black;
-    }
+   
+    
+    
     .card-title{
       color:#43305C;
       font-weight: bolder;
@@ -61,23 +52,11 @@ line-height: 1.5;
       color:#727272;
       text-align: center;
     }
-    #bt{
-      border: 2px solid #4CAF50;
-      background:#4ba674;
-      color:#43305C;
-      border-radius:10px; 
-      width:100px;
-    margin-left:250px;
-
-    }
-    .button{
-      border: 2px solid #4CAF50;
-      background:#fff;
-      color:#3AD29F;
-      border-radius:10px;
-       width:100px;
-      /* margin-left:250px;*/
-    }
+    
+span{
+  color:#3AD29F
+}
+    
     .pl-5 {
       padding-top:-20px; 
     }
@@ -86,7 +65,7 @@ line-height: 1.5;
 <body>
 
 
-<nav class="navbar navbar-expand-sm bg-white navbar-dark shadow-sm p-3 mb-5 bg-white">
+<nav class="navbar navbar-expand-sm bg-white navbar-dark shadow-sm p-3 mb-5 bg-white well well-lg">
   <!-- Brand/logo -->
   <a class="navbar-brand" href="#">
     <img src="./Image/pivotlogo.jpg" alt="logo" style="height:60px;">
@@ -108,26 +87,69 @@ line-height: 1.5;
     </li>
   </ul>
   <div class="login-container">
-    <form action="/action_page.php" style="margin-top: 10px;">
+    <!-- <form action="/action_page.php" style="margin-top: 10px;"> -->
+     <a class="btn btn btn-rounded float-right mr-lg-5 bg-purple"><i class="fas fa-user left"></i> Speak to us</a>
+     <a class="btn btn-outline-purple btn-rounded float-right"><i class="fas fa-book left"></i>Get in touch </a>
       
-      <button id="bt" type="submit" >Sign up</button>
-      <button class="button" type="submit" style=" ">sign in</button>
-    </form>
+      <!-- <button id="bt" type="submit" >Sign up</button>
+      <button class="button" type="submit" style=" ">sign in</button> -->
+    <!-- </form> -->
   </div>
 </nav>
+<div class="container mt-n5 py-5 z-depth-1 bg-white">
+ 
+ 
+        <!--Section: Content-->
+        <section class="px-md-n3 mx-md-5 text-center text-lg-left dark-grey-text">
+    
+          <!--Grid row-->
+          <div class="row">
+    
+            <!--Grid column-->
+            <div class="col-md-6 mb-4 mb-md-0">
+              <p>WE'RE PROPVAT</p>
+    
+              <h3 class="font-weight-bold">The Modern Property<br>Verification System</h3>
+    
+              <p class="text-muted">Ensuring a trusted real estated transaction.You have insurance cover unto NGN50,000,000</p>
+            <a class="btn btn-purple btn-md ml-0 bg-purple" href="#" role="button">Get in touch</a>
+             <a class="btn btn-purple btn-md ml-0 bg-purple" href="#" role="button">Speak to us</a>
+    
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-md-6 mb-4 mb-md-0">
+    
+              <!--Image-->
+              <div class="view overlay z-depth-1-half mb-5">
+                <img src="./Image/div.PNG" class="img-fluid"
+                  alt="">
+                <a href="#">
+                  <div class="mask rgba-white-light"></div>
+                </a>
+              </div>
+    
+            </div>
+            <!--Grid column-->
+    
+          </div>
+          <!--Grid row-->
+    
+    
+        </section>
+        <!--Section: Content-->
+    
+    
+      </div>
+    </div>
 
-<div class="container bg-white">
-  <img src="./Image/div.PNG" alt="" class="float-right">
-  <p class="pt-5 pl-4" style="font-size:12px">WE'RE PROPVAT.</p>
-  <h1 class="pt-0 pl-4">The Modern Property <br>Verification System.</h1>
-  <p class="pt-0 pl-4">Ensuring a trusted real estate transaction .You<br>have insurance cover  unto NGN50,000,000</p>
-  <button  type="submit" id="btn" class="btn btn-outline-primary mx-3" ;>Get started</button>
-  <a  class="btn border border-white mr-lg-5">Speak to us</a>
-</div>
 
-<div class="container bg-white p-3 m " style="margin-top:-230px;">
- <h2 class=" mx-5 text-center">The Modern Property <br>and financial institutions.</h2>
-  <p class="text-center">reducing risks and increasing access to credits/mortgage and purchases.</p>
+
+<div class="container bg-white p-3 m " style="margin-top:-90px;">
+   <h3 class="font-weight-bold mx-5 text-center">The Modern Property<br>and financial institutions.</h3>
+    
+<p class="text-muted text-center">reducing risks and increasing access to credits/mortgage and purchases.</p>
   <div class="card-group">
   <div class="card  border mx-2 mt-n0" id="rncorners4">
     
@@ -166,26 +188,252 @@ line-height: 1.5;
   </div>
 </div>
 </div>
+<div>
 
-<div class="container mt-5 w-120%" style="background-color:#F1E1F8;height:500px;">
+  <div class="container my-5 py-5 z-depth-1" style="background:#F1E1F8 ">
  
-  <h2 class=" mx-5 text-center pt-4">PropVat helps you to verify <br>property in<span>three simple steps</span>.</h2>
-   <img src="./Image/verify.PNG" alt="" class="float-right mt-n5">
-   <button>1</button>
-   <p class="pl-5 ">verification</p>
-   <button>2</button>
-   <p class="pl-5 pt-n5">verification</p>
-   <button class="mt-3">3</button>
-   <p class="pl-5 ">verification</p>
+ <h3 class="font-weight-bold text-center lead grey-text mx-auto mb-5">PropVat helps you to verify <br>property in<span> three simple steps</span>.</h3>
+    
+        <!--Section: Content-->
+        <section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text">
+    
+          <!--Grid row-->
+          <div class="row">
+    
+            <!--Grid column-->
+            <div class="col-md-6 mb-4 mb-md-0">
+              <div class="row mb-3">
 
-  <button  type="submit" id="btn" class="btn btn-outline-primary mx-5 mt-5 "  style="background:#3AD29F;">Get started</button>
+          <div class="col-1">
+            <i class="fas fa-share fa-lg indigo-text"></i>
+          </div>
+         
+
+        </div>
+        
+        <div class="row mb-3">
+
+         
+          <div class="col-1 px-4 pt-n5 my-5 " style="background: #DEBBEF; border-radius:10px">
+            <p style="font-size:30px;text-align:center;">1</p>
+          </div>
+          
+          <div class="col-xl-10 col-md-11 col-10 mt-5">
+            <h5 class="font-weight-bold mb-3">Upload Property Details</h5>
+            <p class="grey-text">Click on the upload property botton and fill in the required information.</p>
+          </div>
+          
+
+        </div>
+        <div class="row mb-3">
+
+         
+          <div class="col-1 px-4 pt-n5 my-5 " style="background: #DEBBEF; border-radius:10px">
+            <p class="text-center pt-3 pr-5" style="font-size:30px;text-align:center;">2</p>
+          </div>
+          
+          <div class="col-xl-10 col-md-11 col-10 mt-5">
+            <h5 class="font-weight-bold mb-3">Apply for Verification</h5>
+            <p class="grey-text">Select from the list of our best in class and vetted experts then proceed.</p>
+          </div>
+          
+
+        </div>
+       
+        <div class="row">
+
+          
+          <div class="col-1 px-4 pt-n5 my-5 " style="background: #DEBBEF; border-radius:10px">
+            <p style="font-size:30px;text-align:center;">3</p>
+          </div>
+         
+          <div class="col-xl-10 col-md-11 col-10 mt-5">
+            <h5 class="font-weight-bold mb-3">Get Report $ Certificates</h5>
+            <p class="grey-text mb-0">Click on get report and wait for the service provider to accept the offer.</p>
+          </div>
+           <a class="btn btn-purple btn-md mr-lg-5-5 bg-purple" href="#" role="button">Get started</a>
+          
+
+        </div>
+       
+
+      </div>
+   <div class="col-md-6 mb-4 mb-md-0">
+    
+              <!--Image-->
+              <div class="view overlay z-depth-1-half">
+                <img src="./Image/verify.PNG" class="img-fluid"
+                  alt="">
+                <a href="#">
+                  <div class="mask rgba-white-light"></div>
+                </a>
+              </div>
+    
+            </div>
+            
+    
+          </div>
+          
+    
+        </section>
+        
+    
+    
+      </div>
+        <div class="container my-5 py-5 z-depth-1">
+
+
+    <!--Section: Content-->
+    <section class="px-md-5 mx-md-5 text-center dark-grey-text">
+
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
+
+        <!--Grid column-->
+        <div class="col-xl-6 col-md-8">
+
+          <h3 class="font-weight-bold">We Validate<br> Any Property Type.Any Size.</h3>
+
+          <p class="text-muted" style="font-size:16px;">Our Experts have experience across all types of properties.<br> Whatever your request is, we have the expertise to handle it.</p>
+
+          
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+
+      <!--Grid row-->
+      <div class="row mx-4">
+
+        <!--First column-->
+        <div class="col-lg-2 col-md-6 ml-lg-3">
+          <img src="./Image/land.PNG">
+ 
+          <p class="font-weight-bolder my-3">Lands</p>
+        </div>
+        <!--/First column-->
+
+        <!--Second column-->
+        <div class="col-lg-2 col-md-6 ml-lg-3">
+            <img src="./Image/multi.PNG">
+
+            <p class="font-weight-bold my-3">Multi-Families</p>
+
+        </div>
+        <!--/Second column-->
+
+        <!--Third column-->
+        <div class="col-lg-2 col-md-6 ml-lg-3">
+           <img src="./Image/indust.PNG">
+            <p class="font-weight-bold my-3">Industries</p>
   
+            
+        </div>
+        
+        <div class="col-lg-2 col-md-6 ml-lg-3">
+            <img src="./Image/apart.PNG">
+
+            <p class="font-weight-bold my-3">Apartment</p>
+
+        </div>
+        <!--/Fourth column-->
+        <div class="col-lg-2 col-md-6 ml-lg-3 mr-n5">
+            <img src="./Image/shops.PNG">
+
+            <p class="font-weight-bold my-3 pr-n5">Shops</p>
+
+          
+        </div>
+        <a class="btn btn-info btn-md mr-5 mb-5 " href="#" role="button">Learn more<i class="fa fa-magic ml-2"></i></a>
+
+      </div>
+      <!--/Grid row-->
+
+
+    </section>
+    <!--Section: Content-->
+
+
+  </div>
+  <div class="container my-5">
+
+
+  <!--Section: Content-->
+  <section class="">
+
+    <!-- Section heading -->
+    <h3 class="text-center font-weight-bold mb-5">Latest news</h3>
+
+    <div class="row">
+
+      <!--Grid column-->
+      <div class="col-md-4 mb-4">
+        <!--Card-->
+        <div class="card">
+
+          
+          <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title"><strong>Property Verification</strong></h4>
+            <p>72 hours to 5days <br><br><br>what it covers</p>
+            <!--Text-->
+            <p> <a href="#">
+          <span class="glyphicon glyphicon-ok"></span>
+        </a>Survey Coordinate search from the land registry
+              </p>
+            <p class="font-small font-weight-bold dark-grey-text mb-1"><i class="far fa-clock-o"></i>
+              27/08/2019</p>
+            <p class="font-small grey-text mb-0">Anna Smith</p>
+            <p class="text-right mb-0 font-small font-weight-bold"><a>read more <i class="fas fa-angle-right"></i></a></p>
+          </div>
+          <!--/.Card content-->
+
+        </div>
+        <!--/.Card-->
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-4 mb-4">
+
+        <!--Card-->
+        <div class="card">
+
+          
+          <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title"><strong>Property Valuation</strong></h4>
+           
+            <!--Text-->
+            <p class="card-text mb-3">Survey coordination search from the land registry
+            </p>
+            <p class="font-small font-weight-bold dark-grey-text mb-1"><i class="far fa-clock-o"></i>
+              27/08/2019</p>
+            <p class="font-small grey-text mb-0">Anna Smith</p>
+            <p class="text-right mb-0 font-small font-weight-bold"><a>read more <i class="fas fa-angle-right"></i></a></p>
+          </div>
+          <!--/.Card content-->
+
+        </div> 
+        <!--/.Card-->
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      
+          
+
+  </section>
+  <!--Section: Content-->
+
+
 </div>
 
   
-
- 
-
 
 </body>
 </html>
