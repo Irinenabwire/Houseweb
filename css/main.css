@@ -16,8 +16,8 @@ line-height: 1.5;
 }
     
     nav{
-      margin-right:72px;
-      margin-left: 72px;
+      margin-right:92px;
+      margin-left: 92px;
     }
     h1{
       font-weight: bolder;
@@ -37,6 +37,9 @@ line-height: 1.5;
 span{
   color:#3AD29F
 }
+.copyright{
+  text-align: center;
+}
     
     .pl-5 {
       padding-top:-20px; 
@@ -54,3 +57,8 @@ span{
     font-size:30px;
     text-align:center;
    }
+ .fab fa{
+  margin-right:30px;
+  margin-left:30px; 
+
+ }
